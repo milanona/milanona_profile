@@ -1,0 +1,124 @@
+body {
+    background-color: #E0FFFF;
+    color: #4B0082;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.btn-blue {
+    background-color: #4169E1;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-blue:hover {
+    background-color: #1E90FF;
+}
+
+h1 {
+    color: #4169E1;
+    font-family: 'Impact', sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+a {
+    text-decoration: none;
+    color: #9932CC;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #FF1493;
+}
+
+.profile {
+    border-radius: 50%;
+    max-width: 30%;
+    height: auto;
+    border: 5px solid #FF1493;
+    box-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile:hover {
+    border-color: #1E90FF;
+    box-shadow: 0 0 15px rgba(30, 144, 255, 0.7);
+}
+
+#intro {
+    background-color: #87CEEB;
+    padding: 20px;
+}
+
+#intro p {
+    margin-bottom: 20px;
+}
+
+#section2 {
+    background-color: #DDA0DD;
+    padding: 20px;
+}
+
+#section3 {
+    background-color: #87CEEB;
+    padding: 20px;
+}
+
+#section4 {
+    background-color: #E6E6FA;
+    padding: 20px;
+}
+
+#section5 {
+    background-color: #DDA0DD;
+    padding: 20px;
+}
+
+.list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.list-inline li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list-inline li:last-child {
+    margin-right: 0;
+}
+
+.list-inline li a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #FFF;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.list-inline li a i {
+    font-size: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.list-inline li a:hover {
+    background-color: #F0F0F0;
+}
+
+.list-inline li a:hover i {
+    color: #666;
+    transform: scale(1.2);
+}
